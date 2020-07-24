@@ -6,9 +6,12 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
+<<<<<<< HEAD
     unless BRANDS.include?(@brand)
       BRANDS << @brand
     end
+=======
+>>>>>>> 24e11eebf6ae406dea67ede7652a33998f214732
   end
 
   def cobble
@@ -16,6 +19,13 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
+<<<<<<< HEAD
   
+=======
+  def brand=(brand)
+    @brand = brand
+    BRANDS << brand
+  end
+>>>>>>> 24e11eebf6ae406dea67ede7652a33998f214732
 
 end
